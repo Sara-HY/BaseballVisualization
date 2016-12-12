@@ -1,0 +1,40 @@
+.text {
+    color: white;
+    font: 8px historical-ligatures;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: white;;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: #87CEFF;
+  stroke: #87CEFF;
+  shape-rendering: crisp;
+  fill-opacity: .9;
+}
+.append-bar{
+  fill: #87CEFF;
+  stroke: #87CEFF;
+  fill-opacity: .9;
+}
+rect[class~=rect-hidden]{
+	opacity: 0.2;
+	fill: #87CEFF;
+    stroke: #87CEFF;
+}
+rect[class~=rect-highlight]{
+	opacity: 1;
+	fill: #87CEFF;
+    stroke: #87CEFF;
+}
+.label {
+  position: absolute;
+  fill: white;
+  color: white;
+  top: 0px;
+  right: 0px;
+}

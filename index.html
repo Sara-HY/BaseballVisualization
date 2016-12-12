@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+	<!--标题-->
+	<meta charset="utf-8">
+	<title>Baseball</title>
+	<!--css库-->
+	<link rel="stylesheet" href="libs/bootstrap-dist/css/bootstrap.min.css">
+	<!--css样式表文件-->
+	<link rel="stylesheet/less" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/strength-scatter.css">
+	<link rel="stylesheet" type="text/css" href="css/salary-histogram.css">
+	<link rel="stylesheet" type="text/css" href="css/salary-line-chart.css">
+</head>
+<body>
+	<!--填充主体的内容-->
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Baseball Visualization</a>
+	    </div>
+	    <p class="navbar-text navbar-right">Sara Han</p>
+	  </div>
+	</nav>
+	<div id="vis-div">
+		<div id = "scatter-plot">
+			<div id = "strength-scatter">
+				<div id = "strength-scatter-text">
+					<p style="color: white; font: 20px historical-ligatures;"><b>Strength Scatter Plot</b></p>
+				</div>
+				<div id = "strength-scatter-svg">
+				</div>
+			</div>
+		</div>
+		<div id = "histogram">
+			<div id = "salary-histogram">
+				<div id = "salary-histogram-text">
+					<p style="color: white; font: 20px historical-ligatures;">Salary Histogram</p>
+				</div>
+				<div id = "salary-histogram-svg">
+				</div>
+			</div>
+		</div>
+		<div id = "line-chart">
+			<div id = "salary-line-chart">
+				<div id = "salary-line-chart-text">
+					<p style="color: white; font: 20px historical-ligatures;">Salary Line Chart</p>
+				</div>
+				<div id = "salary-line-chart-svg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--加载用到的js库-->
+	<script type="text/javascript" src="libs/d3-dist/d3.v3.min.js"></script>
+	<script type="text/javascript" src="libs/d3-dist/d3.tip.js"></script>
+	<script type="text/javascript" src="libs/d3-dist/d3.v4.js"></script>
+	<script type="text/javascript" src="libs/jquery-dist/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/less-dist/less.min.js"></script>
+	<script type="text/javascript" src="scripts/salary-line-chart.js"></script>
+	<script type="text/javascript" src="scripts/strength-scatter.js"></script>
+	<script type="text/javascript" src="scripts/salary-histogram.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>

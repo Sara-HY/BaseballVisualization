@@ -1,0 +1,20 @@
+.axis text {
+    color: white;
+    font: 8px historical-ligatures;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+.pathline {
+    fill: none;
+    stroke-width: 1.5px;
+}
+.brush .extent {
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}

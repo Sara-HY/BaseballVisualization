@@ -1,0 +1,22 @@
+.text {
+    color: white;
+}
+
+.axis text {
+    fill: white;
+    color: white;
+    font: 8px historical-ligatures;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+.dot {
+
+}
+circle[class~=circle-hidden]{
+	opacity: 0.2;
+}
